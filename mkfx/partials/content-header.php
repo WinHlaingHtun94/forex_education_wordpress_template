@@ -18,6 +18,7 @@
             <li><a href="<?= site_url();?>/calender/" class="<?php echo is_page('calender') ? 'active' : ''?>">Calender</a></li>
             <li><a href="<?= site_url();?>/broker/" class="<?php echo is_page('brokers') ? 'active' : ''?>">Brokers</a></li>
             <li><a href="<?= site_url();?>/#contact">Contact</a></li>
+			<li><button class="mode"><img src="<?=get_template_directory_uri()?>/assets/img/sun.png" alt="sun"><img src="<?=get_template_directory_uri()?>/assets/img/moon.png" alt="moon"></button></li>
         </ul>
     </div>
 </header>

@@ -3,7 +3,7 @@
     <div id="ctArea">
         <div class="ctCourses">
             <div class="ctInner block">
-                <h2 class="leadTitle" data-aos="fade-up">Courses of MKFX for Forex Trading</h2>
+                <h2 class="leadTitle" data-aos="fade-up">Courses of MKMyanmar for Forex Trading</h2>
                 <figure class="banner" data-aos="fade-up">
                     <img src="<?=get_template_directory_uri()?>/assets/img/course_banner.png" alt="course_banner" width="1280" height="867">
                 </figure>

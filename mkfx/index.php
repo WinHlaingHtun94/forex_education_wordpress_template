@@ -84,7 +84,7 @@
                             </figure>
                         </div>
                         <div class="right" data-aos="fade-left">
-                            <form action="" method="POST" class="contactForm">
+                            <form method="POST" class="contactForm">
                                 <dl>
                                     <dt><label for="name">Name</label></dt>
                                     <dd><input type="text" id="name" name="name" placeholder="Please enter your name.."></dd>

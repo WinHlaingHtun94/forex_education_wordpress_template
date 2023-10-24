@@ -8,7 +8,7 @@ AOS.init({
 
 $("#liveTxt").typer({
     strings: [
-      "Welcome To MKFX.",
+      "Welcome To MKMyanmar.",
       "We Are A Team Of Forex Trader.",
       "We Are Here To Help You.",
     ],
@@ -38,6 +38,13 @@ $(window).on('load',function(){
   $('.loading').removeClass('active');
 });
 
-// $(document).ready(function(){
-//   $('.loading').addClass('active');
-// });
+$('.mode').on('click',function(){
+  $(this).toggleClass('light');
+  $('body,header,footer').toggleClass('changemode');
+  localStorage.setItem('mode',$(this).hasClass('light'));
+});
+
+if(localStorage.getItem('mode') == 'true'){
+  $('.mode').addClass('light');
+  $('body,header,footer').addClass('changemode');
+}

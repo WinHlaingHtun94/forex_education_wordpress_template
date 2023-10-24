@@ -3,7 +3,7 @@
     <div id="ctArea">
         <div class="ctAnalysis">
             <div class="ctInner block">
-                <h2 class="leadTitle" data-aos="zoom-in">Daily Analysis Of MKFX</h2>
+                <h2 class="leadTitle" data-aos="zoom-in">Daily Analysis Of MKMYANMAR</h2>
                 <div id="images">
                     <?php
                         $args = array(
